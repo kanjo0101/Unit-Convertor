@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+    /* Restyle all this */
+    text-align: center;
+    padding: 45vh;
+}
+#input-el {
+  width: 80px;
+  height: 15vh;
+
+}
+
