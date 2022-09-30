@@ -1,38 +1,51 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-      <input type="text" name="" id="input-el">
-      <button id="btn-el">
-        Convert
-      </button>
-      <div id="meter-section">
-        <h2>
-          Length(Meter/Feet)
-        </h2>
-        <p id="display-el"></p>
-        <p id="display-el2"></p>
-      </div>
-      <div id="volume-section">
-        <h2>
-          Volume(Liters/Gallons)
-        </h2>
-        <p id="display-el3"></p>
-        <p id="display-el4"></p>
-      </div>
-      <div id="mass-section">
-        <h2>
-          Mass(Kilograms/Pounds)
-        </h2>
-        <p id="display-el5"></p>
-        <p id="display-el6"></p>
-      </div>
+      <div id="container">
+        <!-- Input Section -->
+        <header id="input-section">
+          <h2>Metric/Imperial Unit Conversion</h2>
+          <input type="text" name="" id="input-el">
+          <button id="btn-el">
+            Convert
+          </button>
+        </header>
 
-      <button id="clear-btn">
-        Clear
-      </button>
-      
-        <script src="script.js"></script>
+        <!-- Convert Section -->
+        <div id="convert-section">
+              <section id="length-section" class="convert-sections">
+                <h2>
+                  Length(Meter/Feet)
+                </h2>
+                <p id="display-el"></p>
+                <p id="display-el2"></p>
+              </section>
+              <div id="volume-section" class="convert-sections">
+                <h2>
+                  Volume(Liters/Gallons)
+                </h2>
+                <p id="display-el3"></p>
+                <p id="display-el4"></p>
+              </div>
+              <div id="mass-section" class="convert-sections">
+                <h2>
+                  Mass(Kilograms/Pounds)
+                </h2>
+                <p id="display-el5"></p>
+                <p id="display-el6"></p>
+              </div>
+
+              <!-- <button id="clear-btn">
+                Clear
+              </button> -->
+              
+            <script src="script.js"></script>
+            </div>
+      </div>
     </body>
 </html>

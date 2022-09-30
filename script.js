@@ -73,7 +73,6 @@ function convertToVolume2(){
 }
 
 // Mass Section
-
 function convertToMass1(){
 
   inputEl.value
@@ -92,16 +91,12 @@ function convertToMass2(){
 }
 
 
-
-
-
-
 // Clear Btn Function
 
-function clearTheNumber(){
-  inputEl.value = ""
-}
-clearBtn.addEventListener("click", clearTheNumber)
+// function clearTheNumber(){
+//   inputEl.value = ""
+// }
+// clearBtn.addEventListener("click", clearTheNumber)
 
 
 
